@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-purple: #7C3AED;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgba(128, 128, 128, 0.02);
+
+}
+
+#logo{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.form{
+    width: 38.4rem;
+    height: 48.3rem;
+    margin: 0 auto;
+}
+#text1{
+    margin: 1.6rem 0 4rem 0;
+}
+
+label{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+input{
+    padding-left: 1rem;
+    outline: none;
+    border: 1px solid #E2E8F0;
+}
+
+input, button{
+    width: 100%;
+    height: 5.3rem;
+}
+
+#passbox{
+    position: relative;
+}
+#eye{
+    position: absolute;
+    right: 0;
+    padding: 1.5rem;
+}
+
+button{
+    margin: 4rem 0 4rem 0;
+    font-size: 1.4rem;
+    background-color: var(--color-purple);
+    border: none;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9F67FF;
+}
+a{
+    color: var(--color-purple);
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#textpass{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+section img{
+    width: 100%;
+    height: 99.3vh;
+}
+
+::placeholder{
+    font-size: 1.4rem;
+    color: #94A3B8;
+}
